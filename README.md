@@ -30,7 +30,7 @@ Certifique-se de ter instalado:
 
 [Python](https://www.python.org/downloads/)  
 [PostgreSQL](https://www.postgresql.org/download/)  
-Virtualenv ``` pip install virtualenv ```  
+Virtualenv ` pip install virtualenv `  
 
 ## Passos para instalação
 
