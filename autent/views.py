@@ -3,7 +3,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import AuthenticationForm
 
 # Create your views here.
-def index_autent(request):
+def render_index_autent(request):
     return render(request, 'autent/html/index.html')
 
 def login_user(request):
@@ -21,7 +21,7 @@ def login_view(request):
             user = authenticate(username=username, password=password)
             if user is not None:
                 login(request, user)
-                return redirect('index_autent')  # Redirecione para a página inicial ou outra página após o login
+                return redirect('render_index_autent')  # Redirecione para a página inicial ou outra página após o login
     else:
         form = AuthenticationForm()
     return render(request, 'autent/html/login.html', {'form': form})
