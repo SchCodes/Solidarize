@@ -24,17 +24,15 @@ O Solidarize visa englobar a comunidade local, promovendo o voluntariado acessí
 
 # Instalação e Configuração  
 
-Pré-requisitos
+## Pré-requisitos
 
 Certifique-se de ter instalado:
 
-[Python](https://www.python.org/downloads/)
+[Python](https://www.python.org/downloads/)  
+[PostgreSQL](https://www.postgresql.org/download/)  
+Virtualenv ``` pip install virtualenv ```  
 
-[PostgreSQL](https://www.postgresql.org/download/)
-
-Virtualenv ``` pip install virtualenv ```
-
-Passos para instalação
+## Passos para instalação
 
 Clone o repositório:
 
@@ -55,7 +53,7 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-Configure o banco de dados:
+## Configure o banco de dados:
 
 Crie um banco de dados no PostgreSQL.
 
@@ -93,11 +91,11 @@ python manage.py runserver
 
 Acesse a plataforma: Abra o navegador e vá para http://127.0.0.1:8000.
 
-#Contribuindo
+# Contribuindo
 
 Se você deseja contribuir para o Solidarize, siga os passos abaixo:
 
-Faça um fork do projeto.
+## Faça um fork do projeto.
 
 Crie uma branch para sua feature:
 ```sh
@@ -116,7 +114,7 @@ git push origin minha-feature
 
 Abra um pull request e descreva suas mudanças.
 
-#Metodologia
+# Metodologia
 
 O desenvolvimento do projeto segue a metodologia ágil Scrum, com a realização de Sprints para planejar e implementar novas funcionalidades de forma colaborativa e iterativa. O objetivo é manter o ciclo de feedback constante e garantir a entrega contínua de valor.
 
@@ -134,7 +132,8 @@ Este projeto está licenciado sob os termos da MIT License.
 
 ## Contato  
 
-*Para dúvidas ou sugestões, entre em contato:*  
-Nome: [Seu Nome]  
-Email: seu.email@example.com  
-LinkedIn: [Seu Perfil LinkedIn]  
+*Para dúvidas ou sugestões, entre em contato:*
+
+Nome: Ericson Schmidt Bicalho  
+Email: schcodes@gmail.com 
+LinkedIn: [\[Seu Perfil LinkedIn\]  ](https://www.linkedin.com/in/ericson-schmidt-bicalho/)
