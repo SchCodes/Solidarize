@@ -26,8 +26,10 @@ Pré-requisitos
 Certifique-se de ter instalado:
 
 [Python](https://www.python.org/downloads/)
+
 [PostgreSQL](https://www.postgresql.org/download/)
-Virtualenv ```sh pip install virtualenv ```
+
+Virtualenv ``` pip install virtualenv ```
 
 Passos para instalação
 Clone o repositório:
