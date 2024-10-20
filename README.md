@@ -18,36 +18,42 @@ Frontend: HTML, CSS, JavaScript.
 Banco de Dados: PostgreSQL.
 Autenticação e Autorização: Sistema de usuários do Django, com integração para autenticação via Google.
 Emails: Configuração de envio de emails com SMTP para verificação e confirmação de contas.
-Instalação e Configuração
+
+#Instalação e Configuração
+
 Pré-requisitos
+
 Certifique-se de ter instalado:
 
 Python 3.12.6
 PostgreSQL
 Virtualenv
+
 Passos para instalação
 Clone o repositório:
 
-bash
-Copiar código
+```sh
 git clone https://github.com/seu-usuario/solidarize.git
+```
+
 Crie e ative um ambiente virtual:
 
-bash
-Copiar código
+```sh
 python -m venv venv
 source venv/bin/activate  # Para Windows: venv\Scripts\activate
+```
+
 Instale as dependências:
 
-bash
-Copiar código
+```sh
 pip install -r requirements.txt
+```
+
 Configure o banco de dados:
 
 Crie um banco de dados no PostgreSQL.
 Atualize o arquivo settings.py com as credenciais do banco de dados.
-python
-Copiar código
+```py
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -58,24 +64,28 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+```
 Realize as migrações do banco de dados:
 
-bash
-Copiar código
+```sh
 python manage.py migrate
+```
+
 Crie um superusuário:
 
-bash
-Copiar código
+```sh
 python manage.py createsuperuser
+```
+
 Inicie o servidor local:
 
-bash
-Copiar código
+```sh
 python manage.py runserver
+```
+
 Acesse a plataforma: Abra o navegador e vá para http://127.0.0.1:8000.
 
-Contribuindo
+#Contribuindo
 Se você deseja contribuir para o Solidarize, siga os passos abaixo:
 
 Faça um fork do projeto.
@@ -84,15 +94,17 @@ Crie uma branch para sua feature:
 git checkout -b minha-feature
 ```
 Realize o commit das suas alterações:
-bash
-Copiar código
+```sh
 git commit -m 'Adiciona nova funcionalidade'
+```
 Faça o push para a branch:
-bash
-Copiar código
+```sh
 git push origin minha-feature
+```
 Abra um pull request e descreva suas mudanças.
-Metodologia
+
+#Metodologia
+
 O desenvolvimento do projeto segue a metodologia ágil Scrum, com a realização de Sprints para planejar e implementar novas funcionalidades de forma colaborativa e iterativa. O objetivo é manter o ciclo de feedback constante e garantir a entrega contínua de valor.
 
 Sprints
