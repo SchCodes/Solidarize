@@ -34,20 +34,20 @@ Virtualenv ` pip install virtualenv `
 
 ## Passos para instalação
 
-Clone o repositório:
+- Clone o repositório:
 
 ```sh
-git clone https://github.com/seu-usuario/solidarize.git
+git clone https://github.com/SchCodes/Solidarize
 ```
 
-Crie e ative um ambiente virtual:
+- Crie e ative um ambiente virtual:
 
 ```sh
 python -m venv venv
 source venv/bin/activate  # Para Windows: venv\Scripts\activate
 ```
 
-Instale as dependências:
+- Instale as dependências:
 
 ```sh
 pip install -r requirements.txt
@@ -55,7 +55,11 @@ pip install -r requirements.txt
 
 ## Configure o banco de dados:
 
-Crie um banco de dados no PostgreSQL.
+Para configurar o Django com o PostgreSQL, você precisa instalar a biblioteca psycopg2, que é o adaptador utilizado para conectar o Django ao PostgreSQL.  
+
+Instalar o psycopg2:  
+
+``` pip install psycopg2 ```  
 
 Atualize o arquivo settings.py com as credenciais do banco de dados.
 
