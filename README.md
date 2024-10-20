@@ -128,7 +128,7 @@ Abra um pull request e descreva suas mudanças.
 
 O desenvolvimento do projeto segue a metodologia ágil Scrum, com a realização de Sprints para planejar e implementar novas funcionalidades de forma colaborativa e iterativa. O objetivo é manter o ciclo de feedback constante e garantir a entrega contínua de valor.
 
-*Sprints*
+**Sprints**
 
 -Sprint 1: Registro de Usuários e Validação de Email.  
 -Sprint 2: Sistema de Gerenciamento de Oportunidades e Perfis de Voluntários e ONGs.  
