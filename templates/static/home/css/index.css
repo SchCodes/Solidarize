@@ -1,6 +1,26 @@
 h1 {
-    color: rgb(87, 177, 9);
+    color: rgb(0, 0, 0);
     font-size: 100px;
     text-align: center;
     margin-top: 10px;
+}
+body {
+    background: linear-gradient(to right, #0d00ff, #00b3ff);
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #05f334;
+    background-image: linear-gradient(to right, #ccc, #12ff0e, #ccc);
+}
+a {
+    color: #08e513;
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}
+a:hover {
+    color: #1500ff;
+    text-decoration: underline;
 }

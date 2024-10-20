@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    {% load static %}
     <link rel="stylesheet" href="{% static 'autent/css/login.css' %}">
 </head>
 <body>
-    <h1>Tela de Login estilizada pelo css!</h1>
-    <hr>
-    <a href="{% url 'index_home' %}">Home</a>
+    <h1>Página de Login</h1>
+
+    <!-- Se houver mensagens de erro -->
+    {% if form.errors %}
+        <div style="color: red;">
+            <p>Por favor, corrija os erros abaixo:</p>
+            <ul>
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <li>{{ field.label }}: {{ error }}</li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Entrar</button>
+    </form>
+
+    <p>Não tem uma conta? <a href="{% url 'register' %}">Registre-se aqui</a></p>
 </body>
 </html>
