@@ -16,11 +16,11 @@ O Solidarize visa englobar a comunidade local, promovendo o voluntariado acessí
 
 ## Tecnologias Utilizadas  
 
-Backend: Django - Framework web Python.
-Frontend: HTML, CSS, JavaScript.
-Banco de Dados: PostgreSQL.
-Autenticação e Autorização: Sistema de usuários do Django, com integração para autenticação via Google.
-Emails: Configuração de envio de emails com SMTP para verificação e confirmação de contas.
++ Backend: Django - Framework web Python.
++ Frontend: HTML, CSS, JavaScript.
++ Banco de Dados: PostgreSQL.
++ Autenticação e Autorização: Sistema de usuários do Django, com integração para autenticação via Google.
++ Emails: Configuração de envio de emails com SMTP para verificação e confirmação de contas.
 
 # Instalação e Configuração  
 
