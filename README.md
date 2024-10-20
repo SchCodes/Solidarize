@@ -135,5 +135,9 @@ Este projeto está licenciado sob os termos da MIT License.
 *Para dúvidas ou sugestões, entre em contato:*
 
 Nome: Ericson Schmidt Bicalho  
-Email: schcodes@gmail.com 
-LinkedIn: [\[Seu Perfil LinkedIn\]  ](https://www.linkedin.com/in/ericson-schmidt-bicalho/)
+Email: schcodes@gmail.com  
+LinkedIn: [Ericson Schmidt](https://www.linkedin.com/in/ericson-schmidt-bicalho/)  
+
+Nome: Nicolas Gabriel de Oliveira  
+Email: nicolassg121@gmail.com  
+LinkedIn: [Nicolas Gabriel](https://www.linkedin.com/in/nicolasgbo/)  
