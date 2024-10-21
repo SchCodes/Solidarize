@@ -4,14 +4,34 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="{% static 'home/css/index.css' %}">
+    <title>{% block title %}Solidarize{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
-    <h1>Home do aplicativo!</h1>
-    <hr>
-    <a href="{% url 'login' %}">Login</a>
-    <hr>
-   
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <a href="{% url 'home' %}">
+                <img src="{% static 'home/img/logo_sem_fundo.png' %}" alt="Logo Solidarize" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'login' %}">Login</a></li>
+                    <li><a href="{% url 'register' %}">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo -->
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Solidarize. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
