@@ -13,8 +13,13 @@ SECRET_KEY = 'django-insecure-npxyk#=f*vbvr%)ai9hhxpn7h750t$ek=a#)%*(d^%&*d97axc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Defina os hosts permitidos para o aplicativo Django
+ALLOWED_HOSTS = ['c321-34-106-246-209.ngrok-free.app', 'c321-34-106-246-209.ngrok-free.app', '127.0.0.1']
 
+# Defina os hosts confiáveis para o aplicativo Django
+CSRF_TRUSTED_ORIGINS = [
+    'https://c321-34-106-246-209.ngrok-free.app'
+]
 
 # Application definition
 
